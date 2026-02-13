@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cdu5s4d7in7xt"]
+
+[ext_resource type="PackedScene" uid="uid://dwlw8msl55ltw" path="res://Scenes/board.tscn" id="1_bo1nx"]
+
+[node name="Main" type="Node2D" unique_id=928951666]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=604414216]
+position = Vector2(72, -72)
+zoom = Vector2(3, 3)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=209640886]
+
+[node name="Board" parent="." unique_id=1620928963 instance=ExtResource("1_bo1nx")]
+position = Vector2(72, -72)
