@@ -3,29 +3,29 @@ extends Sprite2D
 const BOARD_SIZE = 8
 const CELL_WIDTH = 18
 
-const TEXTURE_HOLDER = preload("res://Scenes/texture_holder.tscn")
+const TEXTURE_HOLDER = preload("res://scenes/texture_holder.tscn")
 
 ## Black Pieces
-const BLACK_BISHOP = preload("res://Assets/black_bishop.png")
-const BLACK_KING = preload("res://Assets/black_king.png")
-const BLACK_KNIGHT = preload("res://Assets/black_knight.png")
-const BLACK_PAWN = preload("res://Assets/black_pawn.png")
-const BLACK_QUEEN = preload("res://Assets/black_queen.png")
-const BLACK_ROOK = preload("res://Assets/black_rook.png")
+const BLACK_BISHOP = preload("res://assets/black_bishop.png")
+const BLACK_KING = preload("res://assets/black_king.png")
+const BLACK_KNIGHT = preload("res://assets/black_knight.png")
+const BLACK_PAWN = preload("res://assets/black_pawn.png")
+const BLACK_QUEEN = preload("res://assets/black_queen.png")
+const BLACK_ROOK = preload("res://assets/black_rook.png")
 
 ## White Pieces
-const WHITE_BISHOP = preload("res://Assets/white_bishop.png")
-const WHITE_KING = preload("res://Assets/white_king.png")
-const WHITE_KNIGHT = preload("res://Assets/white_knight.png")
-const WHITE_PAWN = preload("res://Assets/white_pawn.png")
-const WHITE_QUEEN = preload("res://Assets/white_queen.png")
-const WHITE_ROOK = preload("res://Assets/white_rook.png")
+const WHITE_BISHOP = preload("res://assets/white_bishop.png")
+const WHITE_KING = preload("res://assets/white_king.png")
+const WHITE_KNIGHT = preload("res://assets/white_knight.png")
+const WHITE_PAWN = preload("res://assets/white_pawn.png")
+const WHITE_QUEEN = preload("res://assets/white_queen.png")
+const WHITE_ROOK = preload("res://assets/white_rook.png")
 
 ## Turn Textures
-const TURN_WHITE = preload("res://Assets/turn-white.png")
-const TURN_BLACK = preload("res://Assets/turn-black.png")
+const TURN_WHITE = preload("res://assets/turn-white.png")
+const TURN_BLACK = preload("res://assets/turn-black.png")
 
-const PIECE_MOVE= preload("res://Assets/Piece_move.png")
+const PIECE_MOVE= preload("res://assets/Piece_move.png")
 
 @onready var pieces = $Pieces
 @onready var dots = $Dots
